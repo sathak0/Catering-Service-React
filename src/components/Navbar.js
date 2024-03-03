@@ -25,10 +25,10 @@ export  function Navbar(){
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav mx-auto">
                             <Link to="/" className="nav-item nav-link active">Home</Link>
-                            <Link to="/about" className="nav-item nav-link">About</Link>
-                            <Link to="/service" className="nav-item nav-link">Services</Link>
-                            <Link to="/event" className="nav-item nav-link">Events</Link>
-                            <Link to="/menu" className="nav-item nav-link">Menu</Link>
+                            <Link to="/About" className="nav-item nav-link">About</Link>
+                            <Link to="/Service" className="nav-item nav-link">Services</Link>
+                            <Link to="/Event" className="nav-item nav-link">Events</Link>
+                            <Link to="/Menu" className="nav-item nav-link">Menu</Link>
                             <div className="nav-item dropdown">
                                 <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                                 <div className="dropdown-menu bg-light">
